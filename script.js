@@ -38,3 +38,18 @@ exibeNomesAlunos(nomesAlunos);
 for(let i = 0; i <= 10; i++){
   document.write("</br> 8 x " + i + " = " + 8*i);
 }
+
+// Exercicio 05 Semana 03
+let nomeAluno = prompt("Qual o nome do aluno?");
+let idadeAluno = prompt("Qual a idade do aluno?");
+let serieAluno = prompt("Qual a série do aluno?");
+let nomeEscola = prompt("Qual o nome da escola");
+let materiaFavorita = prompt("Qual a sua matéria favorita?");
+
+let confirmacao = confirm("Você confirma os dados inseridos?");
+
+if(confirmacao){
+  document.write("</br>" + "Nome do aluno: " +nomeAluno + "</br>Idade do aluno: " +idadeAluno + "</br>Série do aluno:" +serieAluno + "</br>Nome da escola: " +nomeEscola + "</br>Matéria favorita: " + materiaFavorita);
+} else{
+  document.write("</br>Os dados do aluno não foram confirmados")
+}

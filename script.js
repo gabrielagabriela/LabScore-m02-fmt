@@ -24,3 +24,12 @@ function mediaAluno(media){
 }
 
 mediaAluno(media);
+
+// Exercicio 03 Semana 03
+let nomesAlunos = ["Andre", "Pedro", "Maria", "Lana", "Catarina"];
+
+function exibeNomesAlunos(nomes){
+  nomes.forEach((nome) => document.write("</br>" +nome));
+}
+
+exibeNomesAlunos(nomesAlunos);

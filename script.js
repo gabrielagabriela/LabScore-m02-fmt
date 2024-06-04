@@ -13,3 +13,14 @@ function calculaMediaNotas(notas){
 
 let media = calculaMediaNotas(notas);
 console.log(media);
+
+// Exercicio 02 Semana 03
+function mediaAluno(media){
+  if(media >= 7){
+    document.write("Parabéns, você passou na média!")
+  }else {
+    document.write("Infelizmente você está de recuperação!")
+  }
+}
+
+mediaAluno(media);

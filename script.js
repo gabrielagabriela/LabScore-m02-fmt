@@ -75,3 +75,18 @@ const materiaNotas = {
 let mediaMateria = calculaMediaNotas(materiaNotas.notas);
 console.log(mediaMateria);
 */
+
+// Exercicio 07 Semana 03
+let n = [9,10,3,5,55,23,89,11,9,1]; 
+
+function maiorNumero(numeros){
+  return numeros.reduce((ant, atual) => {
+    if (atual > ant) {
+      return atual; 
+    } else {
+      return ant;
+    }
+  }, numeros[0]); 
+}
+
+console.log(maiorNumero(n));

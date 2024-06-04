@@ -33,3 +33,8 @@ function exibeNomesAlunos(nomes){
 }
 
 exibeNomesAlunos(nomesAlunos);
+
+// Exercicio 04 Semana 03
+for(let i = 0; i <= 10; i++){
+  document.write("</br> 8 x " + i + " = " + 8*i);
+}

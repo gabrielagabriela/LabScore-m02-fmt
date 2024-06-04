@@ -53,3 +53,25 @@ if(confirmacao){
 } else{
   document.write("</br>Os dados do aluno não foram confirmados")
 }
+
+
+// Exercicio 06 Semana 03
+/*
+let nomeDaMateria = prompt("Nome da matéria")
+let notasMateria =[]
+let contador = 0;
+
+while(contador < 4){
+  let nota = prompt("Nota:");
+  notasMateria.push(+nota)
+  contador++
+}
+
+const materiaNotas = {
+  nomeMateria: nomeDaMateria,
+  notas: notasMateria
+}
+
+let mediaMateria = calculaMediaNotas(materiaNotas.notas);
+console.log(mediaMateria);
+*/
